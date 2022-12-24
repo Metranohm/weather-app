@@ -87,3 +87,10 @@ body {
     border-radius: .25rem;
     padding: .25rem;
 }
+
+.day-card-day {
+    font-size: .75rem;
+    color: hsl(200, 100%, 20%);
+    margin-top: .5rem;
+
+}
