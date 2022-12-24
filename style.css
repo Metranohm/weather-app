@@ -44,7 +44,7 @@ body {
     margin-left: 1rem;
 }
 
-.header-right {
+.header-right{
     display: grid;
     width: 50%;
     justify-content: space-around;
@@ -69,4 +69,21 @@ body {
 .value-sub-info {
     font-weight: lighter;
     font-size: 0.75rem;
+}
+
+.day-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 75px);
+    gap: .5rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.day-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid hsl(200, 100%, 10%);
+    border-radius: .25rem;
+    padding: .25rem;
 }
