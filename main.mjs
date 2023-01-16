@@ -1,5 +1,5 @@
 import "./style.css"
-import { getWeather } from "./weather";
+import { getWeather } from "./weather.mjs";
 
 getWeather(10, 10, Intl.DateTimeFormat().resolvedOptions().timeZone).then(
   res => {
